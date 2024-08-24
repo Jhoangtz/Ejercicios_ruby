@@ -9,3 +9,5 @@ descuenta.
 
 =end
 
+puts "Qué animal desea estudia?: "
+estudia_animal = gets.chomp.to_s 
