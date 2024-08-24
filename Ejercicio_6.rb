@@ -27,7 +27,7 @@ menor_a_5 = 0
 mayor_a_5 = 0
 
 for i in 1..muestras 
-    puts "Qué edad tiene el animal"
+    puts "Qué edad tiene el animal?: "
     edad_animales = gets.chomp.to_i
     if edad_animales >= 5
         mayor_a_5 += 1
