@@ -6,11 +6,11 @@ entrada y determine cuál es el mayor.
 =end
 
 puts "Escriba el valor de numero1: " 
-numero1 = gets.to_i
+numero1 = gets.chomp.to_i
 puts "Escriba el valor de numero2: " 
-numero2 = gets.to_i
+numero2 = gets.chomp.to_i
 puts "Escriba el valor de numero3: " 
-numero3 = gets.to_i
+numero3 = gets.chomp.to_i
 
 if numero1 > numero2 && numero1 > numero3
     puts "El numero mayor es #{numero1}"
