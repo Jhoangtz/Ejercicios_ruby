@@ -29,7 +29,3 @@ elsif nota < 60
     puts "Tu calificación es: F"
 
 end
-
-
-
-

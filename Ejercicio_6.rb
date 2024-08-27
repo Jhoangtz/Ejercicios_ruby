@@ -38,5 +38,3 @@ for i in 1..muestras
 end
 puts "Los animales que son menores a 5 son: #{menor_a_5}"
 puts "Los animales que son mayores a 5 son: #{mayor_a_5}"
-
-

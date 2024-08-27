@@ -22,4 +22,3 @@ else
     total3 = numero1 + numero2
     puts "La suma es: #{total3}"
 end
-

@@ -8,4 +8,3 @@ igual a 74, el descuento es del 20%. Obtener cuánto dinero se le
 descuenta.
 
 =end
-
