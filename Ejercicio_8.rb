@@ -15,17 +15,20 @@ class Libro
     end
 
     def nombre
-        puts"El nombre de el libro es: #{@nombre}"
+        puts "El nombre de el libro es: #{@nombre}"
     end
 
     def editorial
-        puts"El editorial del el libro es: #{@editorial}"
+        puts "El editorial del el libro es: #{@editorial}"
     end
 
     def autor
-        puts"El autor de el libro es: #{@autor}"
+        puts "El autor de el libro es: #{@autor}"
     end
 
 end
 
+libro1 = Libro.new("cien años de soledad", "Moral de rrope", "El Gabo")
+libro2 = Libro.new("El amor en los tiempos de colegara", "Sisa", "El Gabo")
 
+libro1.nombre
