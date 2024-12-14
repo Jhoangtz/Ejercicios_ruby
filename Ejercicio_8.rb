@@ -29,6 +29,11 @@ class Libro
 end
 
 libro1 = Libro.new("cien años de soledad", "Moral de rrope", "El Gabo")
-libro2 = Libro.new("El amor en los tiempos de colegara", "Sisa", "El Gabo")
-
 libro1.nombre
+libro1.editorial
+libro1.autor
+
+libro2 = Libro.new("El amor en los tiempos de colera", "Sisa", "El Gabo")
+libro2.nombre
+libro2.editorial
+libro2.autor
