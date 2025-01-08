@@ -31,8 +31,12 @@ class Calculadora
     end
 
     def dividir
+        if num2 == 0 
+            puts "Error, No se puede divivir por 0"
+        else
         divición = num1 / num2
         puts "La divición de num1 y num2 es: #{divición}"
+        end
     end
 
     def raiz_cuadrada
