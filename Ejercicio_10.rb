@@ -17,7 +17,7 @@ class Calculadora
 
     def sumar
         suma = num1 + num2
-        puts "La suma de num1 y num2 es: #{suma}"
+       # puts "La suma de num1 y num2 es: #{suma}"
     end
 
     def restar
@@ -51,7 +51,7 @@ end
 
 calculadora1 = Calculadora.new(10, 5)
 
-calculadora1.sumar
+puts calculadora1.sumar
 calculadora1.restar
 calculadora1.multiplicar
 calculadora1.dividir
