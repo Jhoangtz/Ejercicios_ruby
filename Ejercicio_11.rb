@@ -47,3 +47,8 @@ class Persona
 end
 
 persona1 = Persona.new("Sebastian", 19)
+
+persona1.cambiar_edad(18)
+persona1.cambiar_nombre("Jhoan")
+persona1.mayor_edad?
+persona1.saludar
